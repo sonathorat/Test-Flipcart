@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [FlipCart Application Test Automation Suite]]]]">
+  <test thread-count="5" name="FlipCart Application Test Automation TestCases(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.flipcart.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="removeCartItemsTest"/>
+        </methods>
+      </class> <!-- com.flipcart.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- FlipCart Application Test Automation TestCases(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [FlipCart Application Test Automation Suite]]]] -->

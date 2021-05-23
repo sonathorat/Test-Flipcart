@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FlipCart Application Test Automation Suite" verbose="1" >
+
+	<listeners>
+		<listener class-name="com.flipcart.qa.ExtentReport.FlipcartExtentReport" />
+	</listeners>
+	
+	<listeners>
+		<listener class-name="RetryAnalyzer.MyTransformer" />
+	</listeners>
+	
+	
+  <test name="FlipCart Application Test Automation TestCases"   >
+    <classes>
+      <class name="com.flipcart.qa.testcases.HomePageTest"></class>
+      <class name="com.flipcart.qa.testcases.LoginPageTest">
+      <methods>
+      <exclude name= "loginTestwithinvalidusername"> </exclude>
+      <exclude name= "loginTestwithinvalidpassword"> </exclude>
+      </methods>
+      </class>
+   </classes>
+ </test>
+</suite>
